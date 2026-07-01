@@ -138,6 +138,7 @@ export function GitHubImportModal({ isOpen, onClose, onApply }: GitHubImportModa
                 <input
                   id="username"
                   name="username"
+                  aria-label="GitHub Username"
                   type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
